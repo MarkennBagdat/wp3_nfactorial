@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+  font-family: "Kanit", sans-serif;
+  font-size: 14px;
+  background-color: rgb(241, 241, 241);
+}
+
+.container {
+  margin: 0px auto;
+  max-width: none;
+  margin-left: 160px;
+}
+
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  margin-top: 24px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.header_text {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 122%;
+  text-transform: lowercase;
+  color: #000000;
+  text-decoration: none;
+  padding-bottom: 24px;
+}
+
+.main_hello {
+  margin-top: 64px;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+.photo_header {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+/*Main*/
+
+.author_part {
+  margin-top: 96px;
+  margin-left: 160px;
+  margin-right: 160px;
+  display: inline-flex;
+}
+
+.img_author {
+  width: 64px;
+  height: 64px;
+  margin-right: 16px;
+}
+.author_word {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.author_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 122%;
+  color: #000000;
+}
+.author_text {
+  margin-top: 12px;
+}
+.bold_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  color: #000000;
+  opacity: 0.5;
+  text-decoration: none;
+  margin-right: 4px;
+}
+.author_logo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  margin-left: 650px;
+}
+.logo_main {
+  width: 18px;
+  height: 18px;
+  left: 3px;
+  top: 3px;
+  margin-right: 14px;
+}
+
+/*Text*/
+.text_mid {
+  margin: 70px 160px;
+}
+.titile_main {
+  margin-bottom: 24px;
+}
+.tips_main {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 112%;
+  align-items: center;
+  color: #000000;
+}
+.text_main {
+}
+.text_tips {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  align-items: center;
+  color: #000000;
+}
+
+/*IMage*/
+
+.hello_img {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.image_main {
+  width: 1120px;
+  height: 480px;
+  border-radius: 4px;
+}
+
+/*TEXTTT*/
+
+.sub_header {
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-bottom: 70px;
+}
+.sub_title {
+  margin-bottom: 24px;
+}
+.title_sub {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 117%;
+  align-items: center;
+  color: #000000;
+}
+.sub_text {
+}
+.text_sub {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  align-items: center;
+  color: #000000;
+}
+
+/*Last part*/
+
+.main_logo {
+  display: inline-flex;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+.main_like {
+  display: inline-flex;
+  margin-right: 933px;
+}
+.like_logo {
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+  left: 3px;
+  top: 3px;
+}
+.like_text {
+  display: inline-flex;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  align-items: center;
+  text-align: center;
+  color: #b7b7b7;
+  margin-top: 0px;
+  margin-bottom: 3px;
+  margin-left: 4px;
+  margin-right: 14px;
+}
+.mark {
+  width: 24px;
+  height: 24px;
+}
+.book_mark {
+  width: 18px;
+  height: 18px;
+  left: 3px;
+  top: 3px;
+}
+
+.bookmark {
+  display: inline-flex;
+}
+
+/*FOOTER*/
+
+.footer {
+  width: 100%;
+  height: auto;
+  text-align: right;
+  padding-top: 778px;
+  justify-content: space-between;
+}
+
+.main_foot {
+  margin-bottom: 32px;
+  margin-right: 160px;
+}
+
+.footer_text {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  color: #081e34;
+  opacity: 0.5;
+}
+
+.footer_title {
+  margin-top: 32px;
+}
